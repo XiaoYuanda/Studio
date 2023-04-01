@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import AvatorInof from './AvatorInof.vue';
+import AvatorInof from './AvatorInof.vue'
 import DescribeMe from './DescribeMe.vue'
 export default {
     name: "AboutMe",
