@@ -1,19 +1,18 @@
 <template>
-  <div>
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/>
-     -->
-    <h1>这个页面是主要页面</h1>
-  </div>
+  <HomeNavBar activeitem="blog"></HomeNavBar>
+  <h1>这个页面是主要页面</h1>
+  
 </template>
 
 <script>
+import HomeNavBar from './components/Home/HomeNavBar.vue'
 // import HelloWorld from './components/HelloWorld.vue'
 // import HomeStudio from './components/HomeStudio.vue'
 
 export default {
   name: 'App',
   components: {
+    HomeNavBar
     // HelloWorld,
     // HomeStudio,
   }
@@ -28,5 +27,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
+}
+body {
+  margin: 0;
 }
 </style>
