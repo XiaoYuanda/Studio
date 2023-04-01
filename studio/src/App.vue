@@ -1,20 +1,15 @@
 <template>
-  <HomeNavBar activeitem="blog"></HomeNavBar>
-  <h1>这个页面是主要页面</h1>
-  
+  <HomeNavBar></HomeNavBar>
+  <RouterView></RouterView>
 </template>
 
 <script>
-import HomeNavBar from './components/Home/HomeNavBar.vue'
-// import HelloWorld from './components/HelloWorld.vue'
-// import HomeStudio from './components/HomeStudio.vue'
+import HomeNavBar from './components/home/HomeNavBar'
 
 export default {
   name: 'App',
   components: {
     HomeNavBar
-    // HelloWorld,
-    // HomeStudio,
   }
 }
 </script>

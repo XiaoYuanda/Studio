@@ -1,18 +1,28 @@
 <template>
   <div id="navbar">
-    <img src="../../assets/YuandaStudio.png" alt="">
+    <router-link to="/">
+      <img src="../../assets/YuandaStudio.png" alt="图标">
+    </router-link>
     <ul>
       <li>
-        <a href="">博客</a>
+        <router-link to="/">博客</router-link>
       </li>
       <li>
-        <a href="">收藏</a>
+        <router-link to="/favorite">收藏</router-link>
       </li>
       <li>
-        <a href="">项目</a>
+        <router-link to="/project">项目</router-link>
       </li>
       <li>
-        <a href="">Me</a>
+        <router-link to="/about">Me</router-link>
+      </li>
+      <li>
+        <router-link to="/about">We</router-link>
+      </li>
+      <li>
+        <a href="https://github.com/XiaoYuanda">
+          github
+        </a>
       </li>
     </ul>
   </div>
@@ -51,9 +61,8 @@ export default {
 }
 #navbar img:hover{
   border-radius: 5px;
-  box-shadow: 1px 1px 5px 5px #eee;
 }
-#navbar a {
+ul li a {
   display: block;
   height: 40px;
   width: 70px;
@@ -70,9 +79,6 @@ export default {
 ul li {
   list-style: none;
   overflow: hidden;
-}
-ul, li {
-  padding: 0;
 }
 ul {
   display: flex;
