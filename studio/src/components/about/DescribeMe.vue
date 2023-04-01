@@ -6,7 +6,7 @@
     </p>
 
     <p>
-    我享受编程带给我的乐趣以及渴望精进自己的编程技术，以写代码为乐趣，探寻先进主流的技术，掌握一定程度 HTML + CSS 技能 和 JavaScript，在日常中我主要使用的是 vue 3 框架进行开发，使用 Vue  做 SPA 单页面应用，使用 Element plus UI 框架做页面布局与优化，使用 Asiox 进行 API 调用等，你可以在项目界面查看我开发过的项目，同时，我已将我的项目文件在 GitHub 上开源，欢迎 Star 和 Subscribe。
+    我享受编程带给我的乐趣以及渴望精进自己的编程技术，以写代码为乐趣，探寻先进主流的技术，掌握一定程度 HTML + CSS 技能 和 JavaScript，在日常中我主要使用的是 vue 3 框架进行开发，使用 Vue  做 SPA 单页面应用，使用 Element plus UI 框架做页面布局与优化，使用 Asiox 进行 API 调用等，你可以在项目界面查看我开发过的项目，同时，我已将我的项目文件在<a href="https://github.com/XiaoYuanda">GitHub</a>上开源，欢迎 Star 和 Subscribe。
     </p>
     <p>
     在工作和学习之余，我喜欢在我的微信公众号上写写文档，微信公众号：xiaoYuanda2021
@@ -15,7 +15,7 @@
     <el-row>
     <el-tag v-for="item in items" :key="item.label" class="mx-1" size="small" effect="light" type="info">{{ item.label }}</el-tag>
   </el-row>
-    <p>Find me on GitHub and WeChat or Mail me at xiaoyuanda@aliyun.com</p>
+    <p>可以在<a href="https://github.com/XiaoYuanda">GitHub</a>上找到我，邮箱是 xiaoyuanda@aliyun.com</p>
     <p class="mail">
       xiaoyuanda@aliyun.com
     </p>
@@ -75,5 +75,16 @@ p {
 .mail {
   text-align: right;
   color: #aaa;
+}
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: darkslategray;
+}
+
+a:hover {
+  border-radius: 2px;
+  background-color: #999;
+  padding: 5px;
 }
 </style>
