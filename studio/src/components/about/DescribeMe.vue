@@ -27,10 +27,9 @@
 
 <script>
 import axios from 'axios'
-
+axios.defaults.baseURL = 'https://v0.yiketianqi.com/free/day'
 export default {
   name: 'DescribeMe',
-  baseURL: 'https://v0.yiketianqi.com/api',
   data() {
     return {
       weatherdate: {week: '星期五', wea: '晴朗', tem: '26°C'},
@@ -64,7 +63,6 @@ export default {
     async getWeather() {
       const {data: res} = await axios.get(
         '',
-        
       { baseURL:this.baseURL,
         params:{
         appid: '29126646',

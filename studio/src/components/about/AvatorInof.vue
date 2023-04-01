@@ -3,11 +3,12 @@
     <img src="../../assets/avator.jpg" alt="">
     <ul>
       
-      <li>
-        这是一段简介，一段描述自己的文字
+      <li style="color:#555">
+        Front-End Developer / Tianhe / Guangzhou
       </li>
-      <li>
-        <p>XiaoYuanda</p>
+      <li><a @click="this.changeName()">
+        <p>{{ name }}</p>
+      </a>
       </li>
     </ul>
   </div>
@@ -15,7 +16,24 @@
 
 <script>
 export default {
-  name: 'AvatorInof'
+  name: 'AvatorInof',
+  data() {
+    return {
+      name: 'XiaoYuanda',
+      flag : true
+    }
+  },
+  methods: {
+    changeName(){
+      if(this.flag) {
+        this.name = '肖远大'
+        this.flag = false 
+      } else {
+        this.name = 'XiaoYuanda'
+        this.flag = true
+      }
+    }
+  }
 }
 </script>
 <style scoped>
