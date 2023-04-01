@@ -1,3 +1,7 @@
+<!-- 
+  这是一个简易的顶部导航栏组件，主要是在App页面上使用
+  组件名称，HomeNavBar 
+-->
 <template>
   <div id="navbar">
     <router-link to="/">
@@ -15,9 +19,6 @@
       </li>
       <li>
         <router-link to="/about">Me</router-link>
-      </li>
-      <li>
-        <router-link to="/about">We</router-link>
       </li>
       <li>
         <a href="https://github.com/XiaoYuanda">
@@ -42,7 +43,6 @@ export default {
 
 <style scoped>
 #navbar {
-  /* background-color: #eeeeee; */
   overflow: hidden;
   height: 50px;
   padding: 30px 200px;
@@ -56,9 +56,7 @@ export default {
   padding: 0;
   margin: 0;
 }
-#navbar ul li {
-  display: inline;
-}
+
 #navbar img:hover{
   border-radius: 5px;
 }
@@ -67,18 +65,12 @@ ul li a {
   height: 40px;
   width: 70px;
   line-height: 40px;
-  /* background-color: gray; */
   color: #333;
   text-decoration: none;
 }
 #navbar a:hover{
   border-radius: 5px;
-  background-color: #eee;
 
-}
-ul li {
-  list-style: none;
-  overflow: hidden;
 }
 ul {
   display: flex;

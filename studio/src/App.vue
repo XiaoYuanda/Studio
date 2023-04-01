@@ -26,4 +26,9 @@ export default {
 body {
   margin: 0;
 }
+li {
+  display: inline;
+  list-style: none;
+  overflow: hidden;
+}
 </style>
