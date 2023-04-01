@@ -70,7 +70,7 @@ ul li a {
 }
 #navbar a:hover{
   border-radius: 5px;
-
+  background-color: #eee;
 }
 ul {
   display: flex;

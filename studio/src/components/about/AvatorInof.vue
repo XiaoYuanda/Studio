@@ -23,7 +23,7 @@ export default {
   display: flex;
   overflow: hidden;
   /* background-color: #eee; */
-  padding: 20px;
+  padding: 20px 0;
   width: 800px;
   height: 100px;
   min-width: 800px;
