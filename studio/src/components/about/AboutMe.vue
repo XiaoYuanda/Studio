@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="aboutme">
     <AvatorInof></AvatorInof>
     <DescribeMe></DescribeMe>
   </div>
@@ -14,8 +14,10 @@ export default {
 }
 </script>
 <style scoped>
-div {
-  width:800px;
+#aboutme {
+  width:90%;
+  max-width: 820px;
   margin: 0 auto;
+
 }
 </style>

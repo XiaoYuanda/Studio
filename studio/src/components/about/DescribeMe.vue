@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div id="context">
     <p>
     你好，欢迎来我的个人网站，在这里你可以查看我做过的项目，我写的博客和我的收藏。本人计算机应用技术专业，热衷于网页开发，现在专注基于 Vue 3 框架的 Web 前端开发。
     </p>
@@ -92,7 +92,7 @@ p {
   padding: 0;
 }
 .el-tag--small {
-  margin-right: 15px;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 .mail {
@@ -110,5 +110,8 @@ a:hover {
   border-radius: 2px;
   background-color: #999;
   padding: 5px;
+}
+#context{
+  margin-bottom: 30px;
 }
 </style>

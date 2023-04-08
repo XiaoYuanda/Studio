@@ -40,28 +40,28 @@ export default {
 #avator {
   display: flex;
   overflow: hidden;
-  /* background-color: #eee; */
-  padding: 20px 0;
-  width: 800px;
-  height: 100px;
-  min-width: 800px;
+  /* width: 800px; */
+  max-height: 100px;
+  max-width: 820px;
   justify-content: left;
 }
 img {
-  height: 100px;
-  width: 100px;
+  width:23%;
+  height: 23%;
+  max-width: 100px;
+  max-height: 100px;
   border-radius: 20px;
 }
 ul {
  margin: 0; 
- padding: 10px 25px;
+ padding-left: 10px;
  display: flex;
  flex-direction: column-reverse;
  text-align: start;
 }
 
 ul li p {
-  font-size:xx-large;
+  font-size:x-large;
   font-weight: 800;
   margin: 0;
   padding: 0;

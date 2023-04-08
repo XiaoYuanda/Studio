@@ -47,16 +47,20 @@ export default {
 #navbar {
   overflow: hidden;
   height: 50px;
-  padding: 30px 200px;
+  padding: 20px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 820px;
+  margin: auto;
 }
 #navbar img {
   height: 40px;
   width: 80px;
   padding: 0;
   margin: 0;
+  /* background-color: #354e9a; */
+  border-radius: 5px;
 }
 
 #navbar img:hover{
@@ -77,6 +81,7 @@ ul li a {
 ul {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 svg {
   margin-top: 7px;
